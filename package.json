@@ -1,0 +1,19 @@
+{
+  "name": "cordova-bugly",
+  "version": "0.0.1",
+  "cordova": {
+    "id": "cordova-bugly",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "description": "Cordova Crash Reporter",
+  "repository": "https://github.com/zhangpenglin/cordova-bugly.git",
+  "issue": "https://github.com/zhangpenglin/cordova-bugly/issues",
+  "keywords": [
+    "cordova",
+    "bugly"
+  ],
+  "license": "Apache 2.0 License"
+}
