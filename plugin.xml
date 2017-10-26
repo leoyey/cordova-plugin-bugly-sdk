@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-bugly"
+    id="cordova-plugin-bugly-sdk"
     version="0.0.1">
 
   <name>bugly</name>
-  <description>Cordova Tencent Bugly</description>
-  <author>zhangpenglin</author>
+  <description>Tencent Bugly SDK  Cordova Version </description>
+  <author>Jason.z</author>
   <license>Apache 2.0 License</license>
-  <keywords>bugly</keywords>
+  <keywords>bugly cordova-plugin crash</keywords>
   <license>Apache 2.0</license>
-  <repo>https://github.com/zhangpenglin/cordova-bugly.git</repo>
-  <issue>https://github.com/zhangpenglin/cordova-bugly/issues</issue>
+  <repo>https://github.com/jasonz1987/cordova-plugin-bugly-sdk.git</repo>
+  <issue>https://github.com/jasonz1987/cordova-plugin-bugly-sdk/issues</issue>
 
   <preference name="ANDROID_APPID" />
   <preference name="IOS_APPID" />
@@ -21,7 +21,7 @@
   <!-- android -->
   <platform name="android">
     <lib-file src="src/android/libs/bugly_crash_release.jar" />
-    <source-file src="src/android/CDVBugly.java" target-dir="src/com/zhangpenglin/cordova/bugly" />
+    <source-file src="src/android/CDVBugly.java" target-dir="src/com/jason-z/cordova/bugly" />
     <config-file target="AndroidManifest.xml" parent="/manifest">
       <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
       <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
@@ -35,7 +35,7 @@
     </config-file>
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="CDVBugly">
-        <param name="android-package" value="com.zhangpenglin.cordova.bugly.CDVBugly"/>
+        <param name="android-package" value="com.jason-z.cordova.bugly.CDVBugly"/>
         <param name="onload" value="true" />
       </feature>
     </config-file>

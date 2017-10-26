@@ -1,19 +1,20 @@
 {
-  "name": "cordova-bugly",
+  "name": "cordova-plugin-bugly-sdk",
   "version": "0.0.1",
   "cordova": {
-    "id": "cordova-bugly",
+    "id": "cordova-plugin-bugly-sdk",
     "platforms": [
       "android",
       "ios"
     ]
   },
   "description": "Cordova Crash Reporter",
-  "repository": "https://github.com/zhangpenglin/cordova-bugly.git",
-  "issue": "https://github.com/zhangpenglin/cordova-bugly/issues",
+  "repository": "https://github.com/jasonz1987/cordova-plugin-bugly-sdk.git",
+  "issue": "https://github.com/jasonz1987/cordova-plugin-bugly-sdk/issues",
   "keywords": [
     "cordova",
-    "bugly"
+    "bugly",
+    "crash"
   ],
   "license": "Apache 2.0 License"
 }
