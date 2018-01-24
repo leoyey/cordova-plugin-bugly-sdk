@@ -18,7 +18,7 @@ public class CDVBugly extends CordovaPlugin {
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
         super.initialize(cordova, webView);
         System.out.println("Bugly running.......");
-        CrashReport.initCrashReport(this.cordova.getActivity().getApplicationContext());
+        CrashReport.initCrashReport(cordova.getActivity().getApplicationContext());
     }
 
     @Override
