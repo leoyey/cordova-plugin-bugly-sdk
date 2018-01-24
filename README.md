@@ -5,7 +5,7 @@ A cordova plugin of bugly SDK.
 # Install
 
 ```
-cordova plugin add cordova-plugin-bugly-sdk  --variable ANDROID_APPID=your value --variable IOS_APPID=your value
+ionic cordova plugin add https://github.com/SherlockShi/cordova-plugin-bugly-sdk.git  --variable ANDROID_APPID=your_value --variable IOS_APPID=your_value
 
 ```
 
