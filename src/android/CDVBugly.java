@@ -33,7 +33,7 @@ public class CDVBugly extends CordovaPlugin {
 
     private void test(String message, CallbackContext callbackContext) {
 
-        this.cordova.getActivity().runOnUiThread(new Runnable() {
+        cordova.getActivity().runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 throw new RuntimeException("This is a crash");
