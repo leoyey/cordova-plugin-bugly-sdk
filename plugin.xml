@@ -31,7 +31,7 @@
     </config-file>
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
       <meta-data android:name="BUGLY_APPID" android:value="$ANDROID_APPID" />
-      <meta-data android:name="BUGLY_ENABLE_DEBUG" android:value="true" />
+      <meta-data android:name="BUGLY_ENABLE_DEBUG" android:value="false" />
     </config-file>
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="CDVBugly">
@@ -62,7 +62,7 @@
         <string>$IOS_APPID</string>
     </config-file>
     <config-file target="*-Info.plist" parent="BuglyDebugEnable">
-        <true />
+        <false />
     </config-file>
   </platform>
 

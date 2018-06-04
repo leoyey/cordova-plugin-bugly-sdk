@@ -36,6 +36,8 @@
 
 - (void)testSignalException {
     NSLog(@"test signal exception");
+    int length = 1;
+    NSLog(@"length=%@", length);
     NSString * null = nil;
     NSLog(@"print the nil string %s", [null UTF8String]);
 }
