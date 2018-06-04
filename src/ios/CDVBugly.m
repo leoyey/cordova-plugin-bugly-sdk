@@ -21,7 +21,7 @@
     CDVPluginResult* pluginResult = nil;
     NSString* echo = [command.arguments objectAtIndex:0];
 
-    [self testNSException];
+    // [self testNSException];
     [self testSignalException];
     pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:echo];
 
